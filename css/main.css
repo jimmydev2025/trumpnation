@@ -384,9 +384,11 @@ img,video {
 }
 
 .about {
-    background: url(../images/about-us-background.jpg) center center no-repeat;
+    background: url(/bg.jpg) center center no-repeat;
     background-size: cover;
+    height: 850px;
     position: relative;
+    top: 20px;
     z-index: 5
 }
 
@@ -475,7 +477,7 @@ img,video {
 }
 
 .about__illustration {
-    width: 50%;
+    width: 30%;
     transform: translate(10%, 15%)
 }
 
@@ -485,6 +487,7 @@ img,video {
         max-width: 100%;
         position: absolute;
         right: 0;
+        display: none !important;
         bottom: 0;
         transform: translate(20%, 15%)
     }
